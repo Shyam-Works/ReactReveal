@@ -127,7 +127,7 @@ function Header(){
   );
 }
 export default function App() {
-  return (
+  return (  
     <div className="App">
       <Header />
       <Accordion data={faqs}/>
